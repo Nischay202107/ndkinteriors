@@ -1,0 +1,7 @@
+# create venv (optional)
+py -m venv .venv
+.venv\Scripts\Activate
+
+# upgrade pip and install packages
+py -m pip install --upgrade pip
+py -m pip install langchain chromadb python-docx pandas openai
